@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Courier';
+    text-align: center;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.message {
+	display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.message.show {
+    display: block;
+} 
